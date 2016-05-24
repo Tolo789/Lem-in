@@ -1,0 +1,23 @@
+4
+##start
+start 0 0
+##end
+end 10 0
+a 2 4
+b 3 4
+c 4 4
+1 2 -8
+2 4 -4
+Z 5 10
+z 5 20
+start-a
+b-a
+b-c
+start-1
+1-2
+2-end
+end-c
+Z-start
+end-Z
+z-start
+end-z
