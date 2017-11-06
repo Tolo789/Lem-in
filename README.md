@@ -1,8 +1,10 @@
 # Lem-in
 42 project: graph teory / pathfinding
 
-Objective: Given a graph, find the fastest way to bring a given number of ants from a start point to an end point. (I use an implementation of the Dijkstra's algorithm)
+### Objective
+Given a graph, find the fastest way to bring a given number of ants from a start point to an end point. (I use an implementation of the Dijkstra's algorithm)
 
+### Project's constraints
 The graph is to be given on the standard entry and must have the folowing structure:
 - number of ants;
 - rooms;
@@ -27,6 +29,7 @@ Each line stands for a "round", which has the following rules:
 - the same connection can be used only by one ant per turn;
 - an ant can not be moved to a room if there is already another ant in the same room (except for the end room).
 
+### Options
 It is possible to give some flags to the program in order to change the behaviour of the program:
 - -m: enables multi-pathfinding;
 - -d: uses coordinates between rooms to workout the actual lenght of each connection;
@@ -35,7 +38,7 @@ It is possible to give some flags to the program in order to change the behaviou
 - -c: colors the movement when end room is reached by an ant;
 - -d: displays help menu and closes program.
 
-NOTES:
+### Notes
 - if the -h flag is given any other parameter given (acceptable or not) will not be considered and the help menu will be displayed without even considering the given map;
 - all other flags are compatible with each other;
 - if an invalid parameter is given "Error" will be displayed and the program ends.
